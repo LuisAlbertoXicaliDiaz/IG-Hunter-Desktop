@@ -1,8 +1,8 @@
-# 🎯 IG Hunter Pro
+# 🎯 IG Hunter Desktop
 
 > **Una herramienta de escritorio rápida, segura y local para analizar tus conexiones de Instagram.**
 
-IG Hunter Pro procesa los archivos de datos exportados directamente desde tu cuenta de Instagram para ofrecerte un análisis detallado de tu red, permitiéndote gestionar tu perfil de manera eficiente y sin comprometer tu privacidad.
+IG Hunter Desktop procesa los archivos de datos exportados directamente desde tu cuenta de Instagram para ofrecerte un análisis detallado de tu red, permitiéndote gestionar tu perfil de manera eficiente y sin comprometer tu privacidad.
 
 ---
 
@@ -79,7 +79,6 @@ Luis Alberto Xicali Díaz
 
 Ingeniería en Desarrollo y Gestión de Software, UTP
 
-Puebla, México
 
 
 Al visualizarse en GitHub, este formato organizará la información en bloques claros. Las c
