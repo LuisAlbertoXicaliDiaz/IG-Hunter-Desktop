@@ -65,7 +65,7 @@ Guarda los resultados de tu análisis para revisarlos más tarde. Soporta múlti
 ## 🔒 Privacidad y Seguridad Total
 
 **Tus datos se quedan en tu equipo.** 
-IG Hunter Pro ha sido diseñado con una arquitectura **100% local**. La aplicación no solicita tu usuario ni tu contraseña, y ningún archivo o dato analizado es enviado a internet. Eres el único dueño de tu información.
+IG Hunter Desktop ha sido diseñado con una arquitectura **100% local**. La aplicación no solicita tu usuario ni tu contraseña, y ningún archivo o dato analizado es enviado a internet. Eres el único dueño de tu información.
 
 ---
 
