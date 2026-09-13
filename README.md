@@ -20,66 +20,56 @@ Compara tus listas de datos en segundos y detecta al instante:
 
 ## 🚀 Instalación y Ejecución
 
-Asegúrate de tener Python instalado en tu sistema antes de comenzar.
+Asegúrate de tener Python instalado en tu sistema antes de comenzar. Sigue estos dos sencillos pasos en tu terminal:
 
-**1. Instalar dependencias:**
-```bash
-pip install -r requirements.txt
-2. Iniciar la aplicación:
+1. **Instalar dependencias:** Ejecuta el comando `pip install -r requirements.txt` para preparar el entorno.
+2. **Iniciar la aplicación:** Ejecuta `python main.py` para lanzar la interfaz gráfica.
 
-Bash
-python main.py
-📁 Archivos Necesarios
-Para utilizar la herramienta, solicita la descarga de tu información desde la configuración de Instagram. La aplicación es altamente flexible y soporta archivos individuales o directorios completos en los siguientes formatos: .html, .htm y .json.
+---
+
+## 📁 Archivos Necesarios
+
+Para utilizar la herramienta, solicita la descarga de tu información desde la configuración de Instagram. La aplicación es altamente flexible y soporta archivos individuales o directorios completos en los siguientes formatos: `.html`, `.htm` y `.json`.
 
 Si seleccionas la carpeta raíz de tu extracción, el sistema autodetectará y procesará inteligentemente los siguientes archivos:
 
-followers_1.html
+* `followers_1.html`
+* `following.html`
+* `close_friends.html`
+* `pending_follow_requests.html`
+* `profiles_you've_favorited.html`
+* `recent_follow_requests.html`
+* `recently_unfollowed_profiles.html`
+* `removed_suggestions.html`
 
-following.html
+---
 
-close_friends.html
+## 🛠️ Acciones y Exportación
 
-pending_follow_requests.html
-
-profiles_you've_favorited.html
-
-recent_follow_requests.html
-
-recently_unfollowed_profiles.html
-
-removed_suggestions.html
-
-🛠️ Acciones y Exportación
-Gestión Individual por Perfil
+### Gestión Individual por Perfil
 Cada usuario detectado se presenta en una tarjeta gráfica interactiva que te permite:
 
-🔗 Abrir perfil: Visitar la cuenta directamente en tu navegador.
+* 🔗 **Abrir perfil:** Visita la cuenta directamente en tu navegador.
+* 📋 **Copiar link:** Obtén la URL directa del usuario.
+* 👤 **Copiar usuario:** Extrae el username exacto (ideal para búsquedas rápidas).
 
-📋 Copiar link: Obtener la URL directa del usuario.
-
-👤 Copiar usuario: Extraer el username exacto (ideal para búsquedas).
-
-Exportación de Reportes
+### Exportación de Reportes
 Guarda los resultados de tu análisis para revisarlos más tarde. Soporta múltiples formatos de salida:
 
-📄 TXT (Texto plano)
+* 📄 **TXT** (Texto plano)
+* 📊 **CSV** (Valores separados por comas)
+* 📗 **Excel** (Hoja de cálculo)
 
-📊 CSV (Valores separados por comas)
+---
 
-📗 Excel (Hoja de cálculo)
+## 🔒 Privacidad y Seguridad Total
 
-🔒 Privacidad y Seguridad Total
-Tus datos se quedan en tu equipo.
+**Tus datos se quedan en tu equipo.** 
+IG Hunter Desktop ha sido diseñado con una arquitectura **100% local**. La aplicación no solicita tu usuario ni tu contraseña, y ningún archivo o dato analizado es enviado a internet. Eres el único dueño de tu información.
 
-IG Hunter Pro ha sido diseñado con una arquitectura 100% local. La aplicación no solicita tu usuario ni tu contraseña, y ningún archivo o dato analizado es enviado a internet. Eres el único dueño de tu información.
+---
 
-👨‍💻 Desarrollador
-Luis Alberto Xicali Díaz
+## 👨‍💻 Desarrollador
 
-Ingeniería en Desarrollo y Gestión de Software, UTP
-
-Puebla, México
-
-
-Al visualizarse en GitHub, este formato organizará la información en bloques claros. Las c
+**Luis Alberto Xicali Díaz**
+*Ingeniería en Desarrollo y Gestión de Software, UTP*
