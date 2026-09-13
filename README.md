@@ -72,4 +72,5 @@ IG Hunter Desktop ha sido diseñado con una arquitectura **100% local**. La apli
 ## 👨‍💻 Desarrollador
 
 **Luis Alberto Xicali Díaz**
+
 *Ingeniería en Desarrollo y Gestión de Software*
