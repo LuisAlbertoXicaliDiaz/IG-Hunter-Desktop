@@ -1,65 +1,85 @@
-# IgHunter Pro
+# 🎯 IG Hunter Pro
 
-Aplicación de escritorio para comparar archivos exportados de Instagram y detectar:
+> **Una herramienta de escritorio rápida, segura y local para analizar tus conexiones de Instagram.**
 
-- Usuarios que sigues y no te siguen de vuelta.
-- Usuarios que te siguen y tú no sigues.
-- Usuarios con seguimiento mutuo.
-- Mejores amigos.
-- Solicitudes pendientes.
-- Perfiles favoritos.
-- Solicitudes recientes.
-- Perfiles que dejaste de seguir recientemente.
-- Sugerencias eliminadas.
+IG Hunter Pro procesa los archivos de datos exportados directamente desde tu cuenta de Instagram para ofrecerte un análisis detallado de tu red, permitiéndote gestionar tu perfil de manera eficiente y sin comprometer tu privacidad.
 
-## Instalación
+---
 
+## ✨ Características Principales
+
+Compara tus listas de datos en segundos y detecta al instante:
+
+* 🕵️ **Seguimiento asimétrico:** Usuarios que sigues pero no te devuelven el *follow*, y aquellos que te siguen pero tú no.
+* 🤝 **Conexiones mutuas:** Perfiles con seguimiento recíproco.
+* ⭐️ **Listas especiales:** Mejores amigos y Perfiles favoritos.
+* ⏳ **Gestión de solicitudes:** Solicitudes pendientes de aprobación y solicitudes enviadas recientemente.
+* 🗑️ **Historial de limpieza:** Perfiles que dejaste de seguir recientemente y sugerencias que eliminaste.
+
+---
+
+## 🚀 Instalación y Ejecución
+
+Asegúrate de tener Python instalado en tu sistema antes de comenzar.
+
+**1. Instalar dependencias:**
 ```bash
 pip install -r requirements.txt
-```
+2. Iniciar la aplicación:
 
-## Ejecución
-
-```bash
+Bash
 python main.py
-```
+📁 Archivos Necesarios
+Para utilizar la herramienta, solicita la descarga de tu información desde la configuración de Instagram. La aplicación es altamente flexible y soporta archivos individuales o directorios completos en los siguientes formatos: .html, .htm y .json.
 
-## Archivos necesarios
+Si seleccionas la carpeta raíz de tu extracción, el sistema autodetectará y procesará inteligentemente los siguientes archivos:
 
-Desde la descarga de datos de Instagram, selecciona los archivos de seguidores y seguidos. La app acepta:
+followers_1.html
 
-- `.html`
-- `.htm`
-- `.json`
-- carpetas que contengan esos archivos
+following.html
 
-Si cargas la carpeta completa, la app intenta detectar automáticamente:
+close_friends.html
 
-- `followers_1.html`
-- `following.html`
-- `close_friends.html`
-- `pending_follow_requests.html`
-- `profiles_you've_favorited.html`
-- `recent_follow_requests.html`
-- `recently_unfollowed_profiles.html`
-- `removed_suggestions.html`
+pending_follow_requests.html
 
-## Acciones por perfil
+profiles_you've_favorited.html
 
-Cada usuario se muestra como una tarjeta con:
+recent_follow_requests.html
 
-- Abrir perfil.
-- Copiar link.
-- Copiar usuario.
+recently_unfollowed_profiles.html
 
-## Exportación
+removed_suggestions.html
 
-El reporte se puede guardar como:
+🛠️ Acciones y Exportación
+Gestión Individual por Perfil
+Cada usuario detectado se presenta en una tarjeta gráfica interactiva que te permite:
 
-- TXT
-- CSV
-- Excel
+🔗 Abrir perfil: Visitar la cuenta directamente en tu navegador.
 
-## Privacidad
+📋 Copiar link: Obtener la URL directa del usuario.
 
-La app trabaja de forma local. No pide usuario, contraseña ni envía tus archivos a internet.
+👤 Copiar usuario: Extraer el username exacto (ideal para búsquedas).
+
+Exportación de Reportes
+Guarda los resultados de tu análisis para revisarlos más tarde. Soporta múltiples formatos de salida:
+
+📄 TXT (Texto plano)
+
+📊 CSV (Valores separados por comas)
+
+📗 Excel (Hoja de cálculo)
+
+🔒 Privacidad y Seguridad Total
+Tus datos se quedan en tu equipo.
+
+IG Hunter Pro ha sido diseñado con una arquitectura 100% local. La aplicación no solicita tu usuario ni tu contraseña, y ningún archivo o dato analizado es enviado a internet. Eres el único dueño de tu información.
+
+👨‍💻 Desarrollador
+Luis Alberto Xicali Díaz
+
+Ingeniería en Desarrollo y Gestión de Software, UTP
+
+Puebla, México
+
+
+Al visualizarse en GitHub, este formato organizará la información en bloques claros. Las c
